@@ -1,6 +1,39 @@
 html{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    text-align: center;
+    overflow-x: hidden;
+    height: 500%;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    background-color: aqua;
+}
+
+#sky{
+    background-color: aqua;
+    height: 44%;
+}
+
+#ground{
+    background-color: rgb(165, 95, 42);
+    height: 6%;
+    position: sticky;
+    top: 70%;
+}
+
+#grass{
+    background-color: green;
+    height: 20%;
+}
+
+#dandelion-image{
+    height: 60%;
+    position: fixed;
+    top: 0px;
+    left: 45%;
+}
+
+#Brown_Head, #Seeds, #Yellow_Head, #Stem{
+    display: none;
 }
